@@ -1,0 +1,46 @@
+{
+  "device": "Valeton GP-50",
+  "reference": "Valeton GP-50 official documentation / firmware V1.0.5",
+  "audio": {
+    "bitDepth": 24,
+    "sampleRateHz": 44100,
+    "usbAudio": "2-in/2-out",
+    "midi": true
+  },
+  "modules": [
+    "NR",
+    "PRE",
+    "DST",
+    "N-S",
+    "AMP",
+    "CAB",
+    "EQ",
+    "MOD",
+    "DLY",
+    "RVB"
+  ],
+  "constraints": {
+    "maxSimultaneousModules": 9,
+    "irSlots": 20,
+    "namSlots": 80,
+    "patchSlots": 100
+  },
+  "analysisTargets": [
+    "spectralShape",
+    "dynamics",
+    "harmonics",
+    "pitch",
+    "transients",
+    "delay",
+    "ambience"
+  ],
+  "matchingPolicy": {
+    "exactOriginalSettings": false,
+    "goal": "Find the closest reproducible GP-50 configuration from measured reference characteristics."
+  },
+  "v7Calibration": {
+    "enabled": true,
+    "method": "Reference recording vs actual GP-50 capture using matching DSP fingerprint features",
+    "note": "Calibration similarity is empirical feedback; it is not a claim of recovering unknown original studio settings."
+  }
+}
