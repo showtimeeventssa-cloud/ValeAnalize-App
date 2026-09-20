@@ -1,0 +1,25 @@
+{
+  "name": "ValeAnalize \u2014 GP-50 Tone Matching",
+  "short_name": "ValeAnalize",
+  "description": "Hear it. Analyse it. Play it.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050b10",
+  "theme_color": "#050b10",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
